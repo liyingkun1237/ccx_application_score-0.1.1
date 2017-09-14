@@ -1,0 +1,36 @@
+2017-09-14 10:25:04,586 - log.py - [line:78] - ERROR:
+ [function name:vars_calculation] -> 
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\api.py", line 52, in vars_calculation
+    return pd.concat(vars)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\reshape\concat.py", line 206, in concat
+    copy=copy)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\reshape\concat.py", line 257, in __init__
+    raise ValueError('All objects passed were None')
+ValueError: All objects passed were None
+2017-09-14 10:26:40,220 - log.py - [line:78] - ERROR:
+ [function name:vars_calculation] -> 
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\api.py", line 52, in vars_calculation
+    return pd.concat(vars)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\reshape\concat.py", line 206, in concat
+    copy=copy)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\reshape\concat.py", line 257, in __init__
+    raise ValueError('All objects passed were None')
+ValueError: All objects passed were None
+2017-09-14 10:27:28,119 - log.py - [line:78] - ERROR:
+ [function name:vars_calculation] -> 
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\api.py", line 52, in vars_calculation
+    return pd.concat(vars)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\reshape\concat.py", line 206, in concat
+    copy=copy)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\reshape\concat.py", line 257, in __init__
+    raise ValueError('All objects passed were None')
+ValueError: All objects passed were None

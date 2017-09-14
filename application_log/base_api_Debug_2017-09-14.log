@@ -1,0 +1,70 @@
+2017-09-14 10:02:24,854 - log.py - [line:78] - ERROR:
+ [function name:base_api] -> 
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\api.py", line 25, in base_api
+    data = pd.DataFrame(json.loads(data_path))
+  File "C:\anaconda for python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\anaconda for python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\anaconda for python\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 108 (char 107)
+2017-09-14 10:08:32,113 - log.py - [line:78] - ERROR:
+ [function name:base_api] -> 
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\api.py", line 26, in base_api
+    data = pd.DataFrame(json.loads(data_path))
+  File "C:\anaconda for python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\anaconda for python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\anaconda for python\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 108 (char 107)
+2017-09-14 10:10:03,210 - log.py - [line:78] - ERROR:
+ [function name:base_api] -> 
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\api.py", line 26, in base_api
+    data = pd.DataFrame(json.loads(data_path))
+  File "C:\anaconda for python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\anaconda for python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\anaconda for python\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 108 (char 107)
+2017-09-14 10:21:54,090 - log.py - [line:78] - ERROR:
+ [function name:base_api] -> 
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\api.py", line 26, in base_api
+    data = pd.DataFrame(json.loads(data_path))
+  File "C:\anaconda for python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\anaconda for python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\anaconda for python\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 108 (char 107)
+2017-09-14 10:22:02,740 - log.py - [line:78] - ERROR:
+ [function name:base_api] -> 
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\api.py", line 26, in base_api
+    data = pd.DataFrame(json.loads(data_path))
+  File "C:\anaconda for python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\anaconda for python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\anaconda for python\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 108 (char 107)

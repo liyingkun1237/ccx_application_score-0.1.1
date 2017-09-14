@@ -1,0 +1,90 @@
+2017-09-14 10:25:04,581 - log.py - [line:78] - ERROR:
+ [function name:get_basevars] -> 
+Traceback (most recent call last):
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 444, in _convert_listlike
+    values, tz = tslib.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslib.pyx", line 1810, in pandas._libs.tslib.datetime_to_datetime64 (pandas\_libs\tslib.c:33275)
+TypeError: Unrecognized value type: <class 'str'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\base_var.py", line 37, in get_basevars
+    (pd.to_datetime(df.audit_time) - pd.to_datetime(df.apply_time)).map(
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 509, in to_datetime
+    values = _convert_listlike(arg._values, False, format)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 447, in _convert_listlike
+    raise e
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 435, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 2355, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46617)
+  File "pandas\_libs\tslib.pyx", line 2578, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46233)
+  File "pandas\_libs\tslib.pyx", line 2572, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46122)
+  File "pandas\_libs\tslib.pyx", line 1955, in pandas._libs.tslib.parse_datetime_string (pandas\_libs\tslib.c:35351)
+  File "C:\anaconda for python\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\anaconda for python\lib\site-packages\dateutil\parser.py", line 559, in parse
+    raise ValueError("Unknown string format")
+ValueError: Unknown string format
+2017-09-14 10:26:40,217 - log.py - [line:78] - ERROR:
+ [function name:get_basevars] -> 
+Traceback (most recent call last):
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 444, in _convert_listlike
+    values, tz = tslib.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslib.pyx", line 1810, in pandas._libs.tslib.datetime_to_datetime64 (pandas\_libs\tslib.c:33275)
+TypeError: Unrecognized value type: <class 'str'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\base_var.py", line 37, in get_basevars
+    (pd.to_datetime(df.audit_time) - pd.to_datetime(df.apply_time)).map(
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 509, in to_datetime
+    values = _convert_listlike(arg._values, False, format)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 447, in _convert_listlike
+    raise e
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 435, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 2355, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46617)
+  File "pandas\_libs\tslib.pyx", line 2578, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46233)
+  File "pandas\_libs\tslib.pyx", line 2572, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46122)
+  File "pandas\_libs\tslib.pyx", line 1955, in pandas._libs.tslib.parse_datetime_string (pandas\_libs\tslib.c:35351)
+  File "C:\anaconda for python\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\anaconda for python\lib\site-packages\dateutil\parser.py", line 559, in parse
+    raise ValueError("Unknown string format")
+ValueError: Unknown string format
+2017-09-14 10:27:28,116 - log.py - [line:78] - ERROR:
+ [function name:get_basevars] -> 
+Traceback (most recent call last):
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 444, in _convert_listlike
+    values, tz = tslib.datetime_to_datetime64(arg)
+  File "pandas\_libs\tslib.pyx", line 1810, in pandas._libs.tslib.datetime_to_datetime64 (pandas\_libs\tslib.c:33275)
+TypeError: Unrecognized value type: <class 'str'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\log.py", line 71, in handle_args
+    return func(*args, **kwargs)
+  File "C:\Users\liyin\Desktop\svn_beifeng\申请评分卡模型_0807\dist\ccx_application_score-0.1.1\application_score\base_var.py", line 37, in get_basevars
+    (pd.to_datetime(df.audit_time) - pd.to_datetime(df.apply_time)).map(
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 509, in to_datetime
+    values = _convert_listlike(arg._values, False, format)
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 447, in _convert_listlike
+    raise e
+  File "C:\anaconda for python\lib\site-packages\pandas\core\tools\datetimes.py", line 435, in _convert_listlike
+    require_iso8601=require_iso8601
+  File "pandas\_libs\tslib.pyx", line 2355, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46617)
+  File "pandas\_libs\tslib.pyx", line 2578, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46233)
+  File "pandas\_libs\tslib.pyx", line 2572, in pandas._libs.tslib.array_to_datetime (pandas\_libs\tslib.c:46122)
+  File "pandas\_libs\tslib.pyx", line 1955, in pandas._libs.tslib.parse_datetime_string (pandas\_libs\tslib.c:35351)
+  File "C:\anaconda for python\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\anaconda for python\lib\site-packages\dateutil\parser.py", line 559, in parse
+    raise ValueError("Unknown string format")
+ValueError: Unknown string format
